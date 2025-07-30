@@ -1,0 +1,37 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Puppeteer (navegador pesado)
+.local-chromium/
+**/chrome-win/
+*.exe
+*.dll
+
+# Sesiones de WhatsApp
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.gz
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Backup y temporales
+*.tmp
+*.swp
+*.bak
+
+# Archivos personales que no deberían compartirse
+tem/
